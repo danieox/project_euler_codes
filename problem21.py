@@ -5,6 +5,7 @@
 # For example, the proper divisors of 220 are: 1,2,4,5,10,11,20,22,44,55,110; therefore d(220)=284. The proper divisors of 284 are: 1,2,4,71,142; so d(284)=220. 
 # Evaluate the sum of all the amicable numbers under 10000.
 
+# defining a function for finding the sum of proper divisors
 def sum_of_proper_div(num):
     divisor = []
     for d in range(1,num):
@@ -15,7 +16,7 @@ def sum_of_proper_div(num):
         sum_one += divisor[i]
     return(sum_one)
 
-
+# defining a function to check for amicable numbers
 def amicable(m):
     pairs = []
     for a in range(2,m):
@@ -25,7 +26,8 @@ def amicable(m):
             if p == a:
                 if ((a,y) and (y,a)) not in pairs:
                     pairs.append((a,y))
-                  
+
+# sum for all amicable pairs
     sum_two = 0
     for j in pairs:
         for k in (0,1):
