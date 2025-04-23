@@ -8,4 +8,4 @@ for a in range(1000):
     if a%3 == 0 or a%5 == 0:
         result += a
         
-print("The sum of multiples of 3 or 5 is " + str(result))
+print(f"The sum of multiples of 3 or 5 is: {result}")
