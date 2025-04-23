@@ -11,7 +11,7 @@ Solve at least 100 problems from Project Euler, covering a range of difficulty l
 
 ## Structure
 - Each problem is saved in a separate Python file.
-- Filenames follow the pattern: `problem#.py` (e.g., `problem1.py`).
+- Filenames follow the pattern: `problem##.py` (e.g., `problem01.py`).
 - Files are grouped in 10s in different folders (folder `1-10` contain problems 1 to 10).
 
 ## Technologies Used
@@ -23,7 +23,7 @@ Solve at least 100 problems from Project Euler, covering a range of difficulty l
 Make sure Python 3 is installed. Run a solution file like this:
 
 `in linux terminal`
-python3 problem1.py
+python3 problem01.py
 
 ## Acknowledgements
 Thanks to Project Euler for creating this rich collection of problems.
