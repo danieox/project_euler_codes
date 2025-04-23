@@ -12,6 +12,7 @@ Solve at least 100 problems from Project Euler, covering a range of difficulty l
 ## Structure
 - Each problem is saved in a separate Python file.
 - Filenames follow the pattern: `problem#.py` (e.g., `problem1.py`).
+- Files are grouped in 10s in different folders (folder `1-10` contain problems 1 to 10).
 
 ## Technologies Used
 - Python3 (for now)
