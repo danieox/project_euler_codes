@@ -21,5 +21,4 @@ for i in range(100,1000):
             p = i
             q = j
 
-print("The largest palindrome made from the product of two 3-digit numbers " + str(p) + " and " + str(q) + ", is " + str(max_palindrome))
-
+print(f"The largest palindrome made from the product of two 3-digit number: {p} and {q} is {max_palindrome}")
