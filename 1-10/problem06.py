@@ -9,7 +9,7 @@ for i in range (1,101):
     a += i * i
     b += i
 
-c = b*b
+c = b * b
 d = c - a
 
 print("The sum of the squares of the first one hundred natural numbers is " + str(a))
