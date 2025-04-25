@@ -9,9 +9,5 @@ f = [1,2]
 while(f[-1] + f[-2]) <= 4000000:
   f.append(f[-1] + f[-2])
 
-g = []
-for i in range(len(f)):
-  if f[i] % 2 == 0:
-    g.append(f[i])
-
+g = [i for i in f if i%2 == 0]
 print(sum(g))
