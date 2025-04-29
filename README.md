@@ -27,3 +27,6 @@ python3 problem01.py
 
 ## Acknowledgements
 Thanks to Project Euler for creating this rich collection of problems.
+
+### Timeline
+- 11/04/2025 to 29/04/2025: solved 25 questions
