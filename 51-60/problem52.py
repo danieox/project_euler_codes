@@ -1,3 +1,7 @@
+#! /usr/bin/python
+
+# link to problem: https://projecteuler.net/problem=52
+
 for i in range(1,1000000):
     a = str(i)
     b = str(2*i)
