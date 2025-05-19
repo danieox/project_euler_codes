@@ -15,10 +15,10 @@ Solve at least 100 problems from Project Euler, covering a range of difficulty l
 - Files are grouped in 10s in different folders (folder `1-10` contain problems 1 to 10).
 
 ## Technologies Used
-- Python3 (for now)
-- Future codes may include: `numpy`, `sympy`, and `mpi4py` for parallel computation
-- May also use C for some problems
-
+- Python3
+- C
+  
+  
 ## How to Run
 Make sure Python 3 is installed. Run a solution file like this:
 
