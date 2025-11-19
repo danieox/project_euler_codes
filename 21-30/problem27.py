@@ -1,5 +1,3 @@
-import math
-
 def prime_check(n):
     if n < 2: 
         return False
